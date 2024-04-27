@@ -11,6 +11,14 @@ body {
     font-family: "Montserrat" , sans-serif;
 }
 
+/* utility classes*/
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.7em;
+  }
+
 a {
     text-decoration: none;
     color: white;
@@ -18,6 +26,10 @@ a {
 
 li {
     text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 h2 {
@@ -36,6 +48,17 @@ h2 {
 
 button {
     padding: 15px;
+    text-transform: uppercase; 
+    border: none;
+    display: inline-block;
+    background: grey;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #a11515;
+    color: #fff;
+    border: #fff;
 }
 
 .container {
@@ -96,7 +119,31 @@ form .form-control {
     text-align: center;
 }
 
+li:hover {
+    background-color: #666;
+    color: white;
+    border-radius: 4px;
+  }
+
 /* showcase */
+
+#showcase {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 50%;
+  margin: 0 auto;
+}
+
+.showcase-title {
+    font-size: 50px;
+}
+
+#showcase p {
+    width: 80%;
+    padding-left: 150px;
+    margin-top: -60px;
+   
+}
 
 /* about */
 #about {
@@ -105,9 +152,7 @@ form .form-control {
     padding-bottom: 130px;
   }
 
-.about-row {
-    padding-right: 20px;
-}
+
 .card-1 {
     float: left;
   width: 60%;
